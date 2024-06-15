@@ -73,23 +73,23 @@ def download_reports(username, password, q1, a1, q2, a2, q3, a3, url1, url2, url
         time.sleep(5)
         csv_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div[title='Export - CSV']")))
         csv_button.click()
-        print("Downloaded Custom Sales Data!")
+        print("Downloaded Report 1!")
 
         # Download second report
         time.sleep(3)
-        print("Navigating to Custom Assembly Data...")
+        print("Navigating to Report 2...")
         driver.get(url2)
         csv_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div[title='Export - CSV']")))
         csv_button.click()
-        print("Downloaded Custom Assembly Data!")
+        print("Downloaded Report 2!")
 
         # Download third report
         time.sleep(3)
-        print("Navigating to Custom Invoice...")
+        print("Navigating to Report 3...")
         driver.get(url3)
         csv_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div[title='Export - CSV']")))
         csv_button.click()
-        print("Downloaded Custom Invoice!")
+        print("Downloaded Report 3!")
 
         # Wait for the final download to complete
         time.sleep(5)
