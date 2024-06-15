@@ -15,12 +15,13 @@ This project automates the process of logging into NetSuite and downloading vari
 ```sh
 git clone https://github.com/yourusername/netsuite-report-automation.git
 cd netsuite-report-automation
+```
 
 2. Install the required Python packages:
 
 ```sh
 pip install -r requirements.txt
-
+```
 
 3. Update main.py with your NetSuite login details and report URLs.
 
@@ -31,7 +32,7 @@ Run the following command to start the automation script:
 
 ```sh
 python main.py
-
+```
 
 ## License
 
@@ -50,7 +51,7 @@ This project is licensed under the MIT License.
 git add .
 git commit -m "Initial commit"
 git push origin main
-
+```
 
 This will set up your project with professional comments, structure, and documentation, making it easy to share on GitHub.
 
