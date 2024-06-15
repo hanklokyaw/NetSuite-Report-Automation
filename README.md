@@ -38,20 +38,3 @@ python main.py
 
 This project is licensed under the MIT License.
 
-```sh
-
-### Instructions for Posting to GitHub
-
-1. **Create a new repository on GitHub** with a name like `netsuite-report-automation`.
-2. **Clone the repository** to your local machine.
-3. **Copy the files** (`netsuite_login.py`, `main.py`, `requirements.txt`, `README.md`) into your cloned repository directory.
-4. **Add the files to your GitHub repository** using the following commands:
-
-```sh
-git add .
-git commit -m "Initial commit"
-git push origin main
-```
-
-This will set up your project with professional comments, structure, and documentation, making it easy to share on GitHub.
-
